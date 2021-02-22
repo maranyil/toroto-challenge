@@ -1,0 +1,52 @@
+$toroto-blue: #1930DB;
+$toroto-green: #0fd35a;
+$nice-white: #f1f1f1;
+
+.topbar {
+    display: flex; 
+    height: 100px;
+    width: 100%;  
+    background-color:$toroto-blue;
+
+    margin-top: 0px;
+
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px; 
+}
+
+.topbar img {
+    height: 100px;
+    float: left;
+}
+
+.topbar h1 {
+    font-size: 45px;
+    font-weight: normal; 
+    margin-top: 7px;
+    padding-top: 5px;
+    color: $toroto-green;
+}
+
+
+.white{
+    font-weight: bold; 
+    color:  $nice-white; 
+}
+
+@media only screen and (max-width: 768px) {
+    .topbar {
+        height: 65px;
+    }
+    .topbar img {
+        height: 65px;
+
+    }
+    .topbar h1 {
+        visibility: hidden;
+    }
+    .white {
+        visibility: hidden;
+    }
+
+}

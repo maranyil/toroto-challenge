@@ -1,0 +1,23 @@
+$toroto-blue: #1930db;
+$toroto-green: #0fd35a;
+$toroto-pink: #ba1863;
+$toroto-yellow: #ffbc15;
+$nice-white: #f1f1f1;
+$nice-black: #1c1c1c;
+
+.main {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmmz4hp06k4w8QdpeKgOOrlvFm0YVWZSvIsg&usqp=CAU);
+    width: 100%;
+    height: 350px;
+    margin-top: 3px;
+}
+
+.main h1 {
+    background-color: $toroto-yellow;
+    color: $nice-white;
+}
+
+.main p {
+    color: $nice-white;
+    background: none;
+}

@@ -1,0 +1,58 @@
+$toroto-blue: #1930db;
+$nice-white: #f1f1f1;
+$toroto-green: #0fd35a;
+
+.proyectos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+
+  padding: 5px;
+}
+
+.card {
+  display: block;
+  width: 500px;
+  margin: 20px;
+  background: #fff;
+  box-shadow: 0 6px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  width: inherit;
+  height: 300px;
+}
+
+.card h2 {
+  color: $toroto-blue;
+  margin: 5px;
+}
+
+.card button {
+  background: $toroto-green;
+  color: $nice-white;
+  margin-bottom: 3px;
+
+  width: 200px;
+  height: 35px;
+
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+  .proyectos {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1rem;
+  }
+
+  .card {
+    width: 300px;
+  }
+
+  .card img {
+    width: inherit;
+    height: inherit;
+  }
+}
