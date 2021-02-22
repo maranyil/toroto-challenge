@@ -1,15 +1,40 @@
-$toroto-blue: #1930DB;
-$nice-white: #f1f1f1;
+$toroto-blue: #1930db;
 $toroto-green: #0fd35a;
+$toroto-pink: #ba1863;
+$toroto-yellow: #ffbc15;
+$nice-white: #f1f1f1;
+$nice-black: #1c1c1c;
 
 .myMap {
     padding: 10px;
 }
+.myMap h2 {
+    display: block;
+    background-color: $toroto-pink;
+    font-size: 30px;
+    color: $nice-white;
+    padding: 20px;
+    margin-top: 3px;
+}
+
+.marker {
+    background-image: url('https://images.vexels.com/media/users/3/127601/isolated/preview/4874bc2389e71df4c479ad933b12226a-elliptical-tree-icon-by-vexels.png');
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
 
 p {
     background: $toroto-blue;
     color: $nice-white;
-    padding: 15px;
     border-radius: 3px;
-    margin-top: 5px;
+    padding: 3px;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+    .myMap {
+        width: 90%;
+    }
 }

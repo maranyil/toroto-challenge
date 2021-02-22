@@ -1,10 +1,13 @@
 $toroto-blue: #1930db;
-$nice-white: #f1f1f1;
 $toroto-green: #0fd35a;
+$toroto-pink: #ba1863;
+$toroto-yellow: #ffbc15;
+$nice-white: #f1f1f1;
+$nice-black: #2a2a2b;
 
 .proyectos {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   grid-gap: 1rem;
 
   padding: 5px;
@@ -12,20 +15,40 @@ $toroto-green: #0fd35a;
 
 .card {
   display: block;
-  width: 500px;
+  width: 1070px;
+  height: 350px;
   margin: 20px;
   background: #fff;
   box-shadow: 0 6px 10px -5px rgba(0, 0, 0, 0.2);
 }
 
 .card img {
-  width: inherit;
-  height: 300px;
+  width: 400px;
+  height: 350px;
+  float: left;
+}
+
+.card button {
+  display: none;
 }
 
 .card h2 {
   color: $toroto-blue;
   margin: 5px;
+  font-size: 20px;
+}
+
+.card h5 {
+  color: $toroto-green;
+}
+
+.card p {
+  font-weight: lighter;
+  font-size: 15px;
+  text-align: left;
+  background: none;
+  color: $nice-black;
+  padding: 5px;
 }
 
 .card button {
@@ -37,6 +60,7 @@ $toroto-green: #0fd35a;
   height: 35px;
 
   font-size: 1em;
+  font-weight: bold;
   border: none;
   border-radius: 5px;
 }
@@ -47,12 +71,39 @@ $toroto-green: #0fd35a;
     grid-gap: 1rem;
   }
 
+  .card button {
+    background: $toroto-green;
+    color: $nice-white;
+    margin-bottom: 3px;
+  
+    width: 200px;
+    height: 30px;
+  
+    font-size: 1em;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+  }
+
   .card {
-    width: 300px;
+    width: 320px;
+    height: 380px;
   }
 
   .card img {
     width: inherit;
-    height: inherit;
+    height: 180px;
+  }
+
+  .card button {
+    display: inline;
+  }
+
+  .card h5 {
+    display: none;
+  }
+
+  .card p {
+    display: none;
   }
 }
