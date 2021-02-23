@@ -99,7 +99,7 @@ into a crossmark. */
   padding-top: 125px;
   text-align: center;
   opacity: 0.9;
-  background: #1930DB;
+  background: #1930db;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
@@ -186,7 +186,7 @@ into a crossmark. */
 }
 
 .card h2 {
-  color: #1930DB;
+  color: #1930db;
   margin: 5px;
   font-size: 20px;
 }
@@ -423,7 +423,7 @@ into a crossmark. */
 
 .formC h1 {
   font-size: 43px;
-  color: #1930DB;
+  color: #1930db;
 }
 
 .formC input {
@@ -491,7 +491,7 @@ into a crossmark. */
   display: flex;
   height: 100px;
   width: 100%;
-  background-color: #1930DB;
+  background-color: #1930db;
   margin-top: 0px;
   text-align: center;
   vertical-align: middle;
@@ -633,7 +633,7 @@ body {
 }
 
 .cardbono h2 {
-  color: #1930DB;
+  color: #1930db;
   margin: 5px;
   font-size: 20px;
 }
@@ -744,11 +744,11 @@ a:link {
 .type:hover {
   opacity: 100;
   background-color: #f1f1f1;
-  color: #1930DB;
+  color: #1930db;
 }
 
 p {
-  background: #1930DB;
+  background: #1930db;
   color: #f1f1f1;
   border-radius: 3px;
   margin: 0;
@@ -768,7 +768,7 @@ p {
   display: flex;
   height: 100px;
   width: 100%;
-  background-color: #1930DB;
+  background-color: #1930db;
   margin-top: 0px;
   text-align: center;
   vertical-align: middle;
