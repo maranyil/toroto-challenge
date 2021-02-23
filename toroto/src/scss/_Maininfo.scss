@@ -1,14 +1,7 @@
-$toroto-blue: #1930db;
-$toroto-green: #0fd35a;
-$toroto-pink: #ba1863;
-$toroto-yellow: #ffbc15;
-$nice-white: #f1f1f1;
-$nice-black: #1c1c1c;
-
 .main {
     background-image: url(https://bosqueeterno.com/wp-content/uploads/2020/09/BosqueEterno_Inicio_ParqueFunerario_FondoSlide_01_v2-.jpg);
     width: 100%;
-    height: 380px;
+    height: 480px;
     margin-top: 3px;
     text-align: left;
 }
@@ -19,16 +12,18 @@ $nice-black: #1c1c1c;
     background: $toroto-yellow;
     color: $nice-white;
     padding: 0 10px;
-    font-size: 2.7em;
+    font-size: 43px;
     margin-top: 10px;
+    margin-left: 12px;
 }
 
 .main p {
     color: $nice-white;
     background: none;
-    font-size: 33px;
-    font-weight: bold;
+    font-size: 28px;
+    font-weight: lighter;
     text-align: left;
+    margin-left: 12px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -36,10 +31,11 @@ $nice-black: #1c1c1c;
         height: 200px;
     }
     .main h1 {
-        font-size: 1.7em;
+        font-size: 27px;
         line-height: 35px;
     }
     .main p {
-        font-size: 17px;
+        font-size: 20px;
+        font-weight: lighter;
     }
 }

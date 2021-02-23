@@ -1,12 +1,11 @@
 import React from 'react';
-import '../../scss/Maininfo.scss'
 
-function Maininfo() {
+const Maininfo = () => {
     return (
         <div className="main">
-          <h1> Construyamos un futuro carbono-neutro.</h1>
-          <p> Esto sólo podemos lograrlo trabajando en equipo. <br/> 
-          Con visión y sabiduría
+          <h1>Construyamos un futuro carbono-neutro.</h1>
+          <p>Trabajando en equipo<br/>podemos lograrlo.<br/> 
+          Con visión y sabiduría <br/>
           tú y tu compañía pueden ser parte de esta historia.</p>   
         </div>
     )

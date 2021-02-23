@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Component } from 'react';
-import '../../scss/Map.scss';
+//import '../../scss/Map.scss';
 import ReactMapGL, { GeolocateControl, Marker } from 'react-map-gl';
 
 export default class Mapbox extends Component {
@@ -33,32 +33,35 @@ export default class Mapbox extends Component {
           <Marker
             latitude={15.15705}
             longitude={-92.28702}
-            offsetLeft={-20}
-            offsetTop={-10}
+            offsetLeft={-25}
+            offsetTop={-15}
           >
             <div className="marker" />
             <p>Finca Guadalupe Zajú</p>
+            <p className="type">Forestry</p>
           </Marker>
 
           <Marker
             latitude={17.07602}
             longitude={-96.7146}
-            offsetLeft={-20}
-            offsetTop={-10}
+            offsetLeft={-25}
+            offsetTop={-15}
           >
             {' '}
             <div className="marker" />
             <p>ICICO</p>
+            <p className="type">Forestry</p>
           </Marker>
 
           <Marker
             latitude={20.1231}
             longitude={-98.73146}
-            offsetLeft={-20}
-            offsetTop={-10}
+            offsetLeft={-25}
+            offsetTop={-15}
           >
             <div className="marker" />
             <p>Recarga de acuífero en Hidalgo</p>
+            <p className="type">Water recharge</p>
           </Marker>
         </ReactMapGL>
       </div>

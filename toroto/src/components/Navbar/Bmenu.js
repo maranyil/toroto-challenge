@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../../scss/Bmenu.scss';
 
 const Bmenu = () => {
   return (
@@ -21,7 +20,7 @@ const Bmenu = () => {
               <li>Marketplace</li>
             </Link>
             <Link to="verificado">
-              <li>Verificar</li>
+              <li>Clientes Verificados</li>
             </Link>
             <Link to="leaderboard">
               <li>Líderes del mes</li>

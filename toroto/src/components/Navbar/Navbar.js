@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { useLocation } from 'react-router-dom';
 import logo from '../../assets/img/toroto.png';
 import Bmenu from './Bmenu';
-import '../../scss/Navbar.scss';
+//import '../../scss/Navbar.scss';
 
 const changeTitle = (pathname) => {
   switch (pathname) {
@@ -16,7 +16,7 @@ const changeTitle = (pathname) => {
   }
 };
 
-function Navbar() {
+const Navbar = () => {
   const { pathname } = useLocation();
   return (
     <div className="topbar">
