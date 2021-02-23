@@ -34,11 +34,11 @@ const Compra = () => {
                     <input type="text" placeholder="Nombre" className="form-control" onChange={handleInputChange} name="nombre"></input>
                     <input type="text" placeholder="Apellido" className="form-control" onChange={handleInputChange} name="apellido"></input>
                     <input type="number" placeholder="Cantidad de bonos" className="form-control" onChange={handleInputChange} name="cantidad"></input>
-                    <p>*Como parte de la prevención ante el doble gasto, te pedimos incluír tu Estado y País.<br/>
+                    <p>*Como parte de la prevención ante el doble gasto, te pedimos incluír tu Estado y País.
                     Esto impide que otras personas se lleven el crédito por tus bonos de carbono.</p>
                     <input type="text" placeholder="Estado, País" className="form-control" onChange={handleInputChange} name="pais"></input><br/>
                     <CreditCardInput/><br/>
-                    <button type="submit" className="btn btn-primary">Enviar</button>
+                    <button type="submit" className="btn btn-primary">Comprar</button>
                 </div>      
             </form>
  

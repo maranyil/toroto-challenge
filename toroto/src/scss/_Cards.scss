@@ -78,6 +78,13 @@
     grid-gap: 1rem;
   }
 
+  .pcontainer h1 {
+    background-color: $toroto-pink;
+    color: $nice-white;
+    font-size: 25px;
+    margin-top: 3px;
+  }
+
   .card button {
     background: $toroto-green;
     color: $nice-white;

@@ -11,6 +11,8 @@ const changeTitle = (pathname) => {
       return 'Proyectos';
     case '/marketplace':
       return 'Marketplace';
+    case '/verificado':
+      return 'Clientes verificados';
     case '/leaderboard':
       return 'Líderes del mes';
   }
@@ -21,9 +23,9 @@ const Navbar = () => {
   return (
     <div className="topbar">
       <Link to="/">
-      <img src={logo} alt=""/>
-</Link>
-      
+        <img src={logo} alt="" />
+      </Link>
+
       <h1>
         / <span className="white"> {changeTitle(pathname)} </span>
       </h1>
@@ -32,6 +34,6 @@ const Navbar = () => {
       </div>
     </div>
   );
-}
+};
 
 export default Navbar;
