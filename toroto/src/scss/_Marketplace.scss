@@ -1,0 +1,136 @@
+.bonosventa {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+  
+    padding: 5px;
+  }
+  
+  .bcontainer h1 {
+    background-color: $toroto-pink;
+    color: $nice-white;
+    font-size: 37px;
+    padding: 12px;
+    margin: 3px 0 0 0;
+  }
+
+  .bcontainer p {
+      color: $nice-black;
+      background: none;
+      font-size: 28px;
+      font-weight: normal;
+      margin-top: 0;
+
+  }
+  
+  .cardbono {
+    display: block;
+    width: 550px;
+    height: 232px;
+    margin: 20px;
+    border-radius: 3px;
+    background: #fff;
+    box-shadow: 0 6px 10px -5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .cardbono img {
+    width: 270px;
+    height: 232px;
+    float: left;
+    margin-right: 8px;
+  }
+  
+  
+  .cardbono h2 {
+    color: $toroto-blue;
+    margin: 5px;
+    font-size: 20px;
+  }
+  
+  .cardbono h4 {
+    margin: 3px;
+  }
+  
+  .cardbono h5 {
+    color: $toroto-green;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .cardbono h6 {
+      color: $toroto-pink;
+      font-size: 18px;
+      margin-top: 5px;
+  }
+
+  .cardbono button {
+    background: $toroto-green;
+    color: $nice-white;
+    margin-top: 10px;
+    margin-bottom: 3px;
+  
+    width: 200px;
+    height: 30px;
+  
+    font-size: 1em;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    &:hover {
+        background: $toroto-yellow;
+    }
+  } 
+
+  a:link {
+    text-decoration: none;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .bonosventa {
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 1rem;
+    }
+
+    .bcontainer h1 {
+        font-size: 30px;
+    }
+
+    .bcontainer p{
+        font-size: 22px;
+    }
+  
+    .cardbono button {
+      background: $toroto-green;
+      color: $nice-white;
+      margin-bottom: 3px;
+    
+      width: 200px;
+      height: 30px;
+    
+      font-size: 1em;
+      font-weight: bold;
+      border: none;
+      border-radius: 5px;
+    }
+  
+    .cardbono {
+      width: 320px;
+      height: 400px;
+      border-radius: 3px;
+    }
+  
+  
+    .cardbono img {
+      width: inherit;
+      height: 180px;
+      margin-bottom: 5px;
+    }
+  
+    .cardbono button {
+      display: inline;
+      margin-top: 20px;
+    }
+  
+  }
+  

@@ -1,0 +1,74 @@
+.formC {
+    display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 1rem;
+
+  padding: 5px;
+    height: 500px;
+    margin-bottom: 10px;
+    box-shadow: 0 6px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+.formC h1 {
+    font-size: 43px;
+    color: $toroto-blue;
+}
+
+.formC input {
+    height: 22px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 23px;
+}
+
+.formC p {
+    background: none;
+    color: $nice-black;
+    font-size: 16px;
+    font-weight: lighter;
+
+}
+
+.formC button {
+    border:none;
+    background-color: $toroto-green;
+    color:$nice-white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.verificado {
+    background-image: url(https://bosqueeterno.com/wp-content/uploads/2020/09/BosqueEterno_Inicio_ParqueFunerario_FondoSlide_01_v2-.jpg);
+    height: 400px;
+}
+
+.verificado h2 {
+    font-size: 37px;
+    font-weight: bold;
+    color: $nice-white;
+}
+
+.verificado p {
+   background: none;
+   color: $nice-white;
+   font-size: 22px;
+}
+.verificado img {
+    border-radius: 50px;
+    width: 60px;
+    height: 60px;
+}
+
+.verificado h4 {
+    color: $nice-white;
+}
+
+@media only screen and (max-width: 600px) {
+    .formC h1 {
+        font-size: 27px;
+    }
+    .formC p {
+        font-size: 13px;
+    }
+}

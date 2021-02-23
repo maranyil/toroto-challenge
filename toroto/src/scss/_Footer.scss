@@ -1,8 +1,5 @@
-$toroto-blue: #1930DB;
-$toroto-green: #0fd35a;
-$nice-white: #f1f1f1;
 
-.topbar {
+.footer {
     display: flex; 
     height: 100px;
     width: 100%;  
@@ -15,12 +12,20 @@ $nice-white: #f1f1f1;
     line-height: 100px; 
 }
 
-.topbar img {
-    height: 100px;
+.future {
+    height: 80px;
     float: left;
+    white-space: 300px;
+    margin-top: 13px;
+    margin-left: 13px;
 }
 
-.topbar h1 {
+.socialm {
+    margin-left: auto;
+}
+
+
+.footer h1 {
     font-size: 45px;
     font-weight: normal; 
     margin-top: 7px;
@@ -34,15 +39,15 @@ $nice-white: #f1f1f1;
     color:  $nice-white; 
 }
 
-@media only screen and (max-width: 768px) {
-    .topbar {
+@media only screen and (max-width: 600px) {
+    .footer {
         height: 65px;
     }
-    .topbar img {
-        height: 65px;
+    .footer img {
+        height: 40px;
 
     }
-    .topbar h1 {
+    .footer h1 {
         visibility: hidden;
     }
     .white {

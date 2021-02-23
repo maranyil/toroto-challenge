@@ -1,0 +1,127 @@
+.proyectos {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 1rem;
+
+  padding: 5px;
+}
+
+.pcontainer h1 {
+  background-color: $toroto-pink;
+  color: $nice-white;
+  font-size: 45px;
+  margin-top: 3px;
+}
+
+.card {
+  display: block;
+  width: 1070px;
+  height: 370px;
+  margin: 20px;
+  border-radius: 3px;
+  background: #fff;
+  box-shadow: 0 6px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  width: 400px;
+  height: 370px;
+  float: left;
+  margin-right: 8px;
+}
+
+.card button {
+  display: none;
+}
+
+.card h2 {
+  color: $toroto-blue;
+  margin: 5px;
+  font-size: 20px;
+}
+
+.card h4 {
+  margin: 3px;
+}
+
+.card h5 {
+  color: $toroto-green;
+  font-size: 18px;
+}
+
+.card p {
+  font-weight: lighter;
+  font-size: 15px;
+  text-align: left;
+  background: none;
+  color: $nice-black;
+  padding: 5px;
+}
+
+.card button {
+  background: $toroto-green;
+  color: $nice-white;
+  margin-bottom: 3px;
+
+  width: 200px;
+  height: 35px;
+
+  font-size: 1em;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+  .proyectos {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1rem;
+  }
+
+  .pcontainer h1 {
+    background-color: $toroto-pink;
+    color: $nice-white;
+    font-size: 25px;
+    margin-top: 3px;
+  }
+
+  .card button {
+    background: $toroto-green;
+    color: $nice-white;
+    margin-bottom: 3px;
+  
+    width: 200px;
+    height: 30px;
+  
+    font-size: 1em;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .card {
+    width: 320px;
+    height: 380px;
+    border-radius: 3px;
+  }
+
+
+  .card img {
+    width: inherit;
+    height: 180px;
+    margin-bottom: 5px;
+  }
+
+  .card button {
+    display: inline;
+    margin-top: 20px;
+  }
+
+  .card h5 {
+    display: none;
+  }
+
+  .card p {
+    display: none;
+  }
+}

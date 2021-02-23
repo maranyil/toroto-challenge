@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
-//import '../scss/Cards.scss';
-//import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const useProjects = () => {
   const [projects, setProjects] = useState([]);
@@ -16,26 +15,26 @@ const useProjects = () => {
   return projects;
 };
 
-const Proyectos = () => {
-
-  
+const Market = () => {
   const projects = useProjects();
 
   return (
-    <div className="pcontainer">
-      <h1>Conoce algunos de nuestros aliados<br/>
-      en captura y reducción de carbono.</h1>
+    <div className="bcontainer">
+      <h1>Cambia tu huella de carbono.</h1>
+      <p>Compra bonos de carbono directamente de nuestros aliados.</p>
 
-      <ul className="proyectos">
+      <ul className="bonosventa">
         {projects.map((item) => (
-          <div className="card" key={item.name}>
+          <div className="cardbono" key={item.name}>
             <img src={item.img} alt="" />
             <h2> {item.name} </h2>
             <h4> {item.location} </h4>
             <h4> {item.type} </h4>
-            <button> SABER MÁS </button>
-            <p> {item.description} </p>
-            <h5> Trabajos generados: {item.jobsGenerated} </h5>
+            <Link to="compra">
+              <button> COMPRAR BONOS </button>
+            </Link>
+            <h5> Bonos Disponibles: {item.availableOffsets} </h5>
+            <h6> Precio: {item.offsetPrice} </h6>
           </div>
         ))}
       </ul>
@@ -43,4 +42,4 @@ const Proyectos = () => {
   );
 };
 
-export default Proyectos;
+export default Market;

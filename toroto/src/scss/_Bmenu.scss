@@ -95,7 +95,7 @@ into a crossmark. */
 .menu {
   position: absolute;
   width: 300px;
-  height: 200vh;
+  height: 600px;
   margin: -100px 0 0 -300px;
   padding: 30px;
   padding-top: 125px;
@@ -120,10 +120,9 @@ into a crossmark. */
 .menu li {
   padding: 20px 0;
   font-size: 30px;
-}
-
-li:hover{
-  color: $toroto-green !important;
+  &:hover {
+    color: $toroto-green !important;
+  }
 }
 
 /* slide it from the left */
