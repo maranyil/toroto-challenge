@@ -99,7 +99,7 @@ into a crossmark. */
   padding-top: 125px;
   text-align: center;
   opacity: 0.9;
-  background: #1930DB;
+  background: #1930db;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
@@ -186,7 +186,7 @@ into a crossmark. */
 }
 
 .card h2 {
-  color: #1930DB;
+  color: #1930db;
   margin: 5px;
   font-size: 20px;
 }
@@ -332,6 +332,82 @@ into a crossmark. */
   }
 }
 
+.vcontain {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+  padding: 5px;
+}
+
+.verified {
+  background-image: url(https://bosqueeterno.com/wp-content/uploads/2020/09/BosqueEterno_Inicio_ParqueFunerario_FondoSlide_01_v2-.jpg);
+  display: block;
+  color: #f1f1f1;
+  width: 400px;
+  height: 350px;
+  margin: 20px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 6px 10px -5px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 6px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+.verified img {
+  border-radius: 50px;
+  width: 60px;
+  height: 60px;
+}
+
+.verified h2 {
+  font-size: 35px;
+  margin-bottom: 3px;
+}
+
+.verified h3 {
+  font-size: 25px;
+  background-color: #0fd35a;
+  font-weight: bold;
+}
+
+.verified h4 {
+  font-size: 27px;
+  margin: 0;
+}
+
+.verified h5 {
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.verified h6 {
+  margin-top: 5px;
+  font-size: 17px;
+  font-weight: normal;
+}
+
+@media only screen and (max-width: 600px) {
+  .vcontain {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+  }
+  .verified {
+    width: 300px;
+    margin: auto;
+    height: 350px;
+    margin: 20px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 6px 10px -5px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 6px 10px -5px rgba(0, 0, 0, 0.2);
+  }
+  .verified h3 {
+    margin-bottom: 5px;
+  }
+  .verified h5 {
+    margin-top: 3px;
+  }
+}
+
 .formC {
   display: -ms-grid;
   display: grid;
@@ -347,7 +423,7 @@ into a crossmark. */
 
 .formC h1 {
   font-size: 43px;
-  color: #1930DB;
+  color: #1930db;
 }
 
 .formC input {
@@ -415,7 +491,7 @@ into a crossmark. */
   display: flex;
   height: 100px;
   width: 100%;
-  background-color: #1930DB;
+  background-color: #1930db;
   margin-top: 0px;
   text-align: center;
   vertical-align: middle;
@@ -557,7 +633,7 @@ body {
 }
 
 .cardbono h2 {
-  color: #1930DB;
+  color: #1930db;
   margin: 5px;
   font-size: 20px;
 }
@@ -668,11 +744,11 @@ a:link {
 .type:hover {
   opacity: 100;
   background-color: #f1f1f1;
-  color: #1930DB;
+  color: #1930db;
 }
 
 p {
-  background: #1930DB;
+  background: #1930db;
   color: #f1f1f1;
   border-radius: 3px;
   margin: 0;
@@ -692,7 +768,7 @@ p {
   display: flex;
   height: 100px;
   width: 100%;
-  background-color: #1930DB;
+  background-color: #1930db;
   margin-top: 0px;
   text-align: center;
   vertical-align: middle;
