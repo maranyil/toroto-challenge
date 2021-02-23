@@ -1,4 +1,5 @@
 import React, { Fragment, useState } from 'react';
+import { v4 as uuidv4 } from 'uuid';
 import CreditCardInput from 'react-credit-card-input';
 import hojita from '../assets/img/hojita.jpg';
 
@@ -48,7 +49,7 @@ const Compra = () => {
                 <p>Este certificado confirma que {datos.nombre} {datos.apellido}</p>
                 <p>Realizó la compra de {datos.cantidad} bonos de carbono</p>
                 <p>El día {datos.date.toLocaleDateString()}</p>
-                <h4>Serial: xxxx-xxxx-xxxx</h4>
+                <h4>Serial: {uuidv4()} </h4>
 
             </div>
         </Fragment>

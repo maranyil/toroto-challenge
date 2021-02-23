@@ -332,6 +332,82 @@ into a crossmark. */
   }
 }
 
+.vcontain {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+  padding: 5px;
+}
+
+.verified {
+  background-image: url(https://bosqueeterno.com/wp-content/uploads/2020/09/BosqueEterno_Inicio_ParqueFunerario_FondoSlide_01_v2-.jpg);
+  display: block;
+  color: #f1f1f1;
+  width: 400px;
+  height: 350px;
+  margin: 20px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 6px 10px -5px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 6px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+.verified img {
+  border-radius: 50px;
+  width: 60px;
+  height: 60px;
+}
+
+.verified h2 {
+  font-size: 35px;
+  margin-bottom: 3px;
+}
+
+.verified h3 {
+  font-size: 25px;
+  background-color: #0fd35a;
+  font-weight: bold;
+}
+
+.verified h4 {
+  font-size: 27px;
+  margin: 0;
+}
+
+.verified h5 {
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.verified h6 {
+  margin-top: 5px;
+  font-size: 17px;
+  font-weight: normal;
+}
+
+@media only screen and (max-width: 600px) {
+  .vcontain {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+  }
+  .verified {
+    width: 300px;
+    margin: auto;
+    height: 350px;
+    margin: 20px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 6px 10px -5px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 6px 10px -5px rgba(0, 0, 0, 0.2);
+  }
+  .verified h3 {
+    margin-bottom: 5px;
+  }
+  .verified h5 {
+    margin-top: 3px;
+  }
+}
+
 .formC {
   display: -ms-grid;
   display: grid;

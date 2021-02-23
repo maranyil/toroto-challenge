@@ -4,11 +4,11 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
 import Proyectos from './pages/Proyectos';
 import Marketplace from './pages/Marketplace';
-//import Verificado from './pages/Verificado';
 import Compra from './pages/Compra';
 import Toroto from './pages/Toroto';
 import Footer from './components/Navbar/Footer';
 import NotFound from './pages/Notfound';
+import Verificado from './pages/Verificado';
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
           <Route exact path = "/proyectos" render = {() => <Proyectos />} />
           <Route exact path = "/marketplace" render = {() => <Marketplace />} />
           <Route exact path = "/leaderboard" render = {() => <NotFound />} />
-          <Route exact path = "/verificado" render = {() => <NotFound />} />
+          <Route exact path = "/verificado" render = {() => <Verificado />} />
           <Route exact path = "/compra" render = {() => <Compra />} />
         </Switch>
         <Footer />
